@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/AnthonyGilliam/SassGulpNpmWebWorkflows/issues"
   },
-  "homepage": "https://github.com/AnthonyGilliam/SassGulpNpmWebWorkflows#readme"
+  "homepage": "https://github.com/AnthonyGilliam/SassGulpNpmWebWorkflows#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
 }
