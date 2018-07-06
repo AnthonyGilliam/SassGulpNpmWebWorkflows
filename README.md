@@ -1,2 +1,3 @@
 # SassGulpNpmWebWorkflows
-Project from the Udemy Course "Modern Web Development With SASS Gulp and npm Web Workflows".
+
+Project from the Udemy Course "Modern Web Development with SASS, Gulp, NPM & Web Workflows".

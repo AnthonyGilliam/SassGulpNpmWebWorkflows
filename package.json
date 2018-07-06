@@ -1,0 +1,27 @@
+{
+  "name": "sassgulpnpmwebworkflows",
+  "version": "1.0.0",
+  "description": "Project from the Udemy Course \"Modern Web Development with SASS, Gulp, NPM & Web Workflows\".",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnthonyGilliam/SassGulpNpmWebWorkflows.git"
+  },
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Git",
+    "Gulp",
+    "Git",
+    "Gulp"
+  ],
+  "author": "Anthony Gilliam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnthonyGilliam/SassGulpNpmWebWorkflows/issues"
+  },
+  "homepage": "https://github.com/AnthonyGilliam/SassGulpNpmWebWorkflows#readme"
+}
