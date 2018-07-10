@@ -5,13 +5,19 @@ const browserSync = require('browser-sync');
 const reload = browserSync.reload;
 
 const SOURCEPATHS = {
-    sass: 'src/scss/*.scss'
+    sass: 'src/scss/*.scss',
+    html: 'src/**/*.html'
 };
 const APPPATHS = {
     root: 'app/',
     css: 'app/css',
     js: 'app/js'
 };
+
+gulp.task('copy', () => {
+    return gulp.src(SOURCEPATHS.html)
+        .pipe(gulp.dest(APPPATHS.root));
+});
 
 gulp.task('sass', () => {
    return gulp.src(SOURCEPATHS.sass)
@@ -30,6 +36,7 @@ gulp.task('serve', gulp.series('sass', () => {
 
 gulp.task('watch', gulp.series('sass', () => {
     gulp.watch([SOURCEPATHS.sass], gulp.series('sass'));
+    gulp.watch([SOURCEPATHS.html], gulp.series('copy'));
 }));
 
-gulp.task('default', gulp.series('sass', 'watch'));
+gulp.task('default', gulp.series('copy', 'sass', 'watch'));

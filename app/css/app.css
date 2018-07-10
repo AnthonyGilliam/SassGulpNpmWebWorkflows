@@ -11,17 +11,17 @@ h1:hover {
 }
 
 h1::-webkit-input-placeholder {
-  color: orange;
+  color: yellow;
 }
 
 h1:-ms-input-placeholder {
-  color: orange;
+  color: yellow;
 }
 
 h1::-ms-input-placeholder {
-  color: orange;
+  color: yellow;
 }
 
 h1::placeholder {
-  color: orange;
+  color: yellow;
 }
