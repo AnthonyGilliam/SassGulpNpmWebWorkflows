@@ -1,5 +1,17 @@
-$white: white;
+$grey: grey;
 
 body{
-  background-color: $white;
+  background-color: $grey;
+}
+
+h1 {
+  color: white;
+
+  &:hover {
+  transition: color 1s ease;
+  }
+
+  &::placeholder {
+    color: orange;
+  }
 }
